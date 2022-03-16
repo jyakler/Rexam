@@ -13,4 +13,6 @@
     range(범위): 시작,끝 출력
     sort(함수):default 오름차순 /  default: decreasing=F
     order(): 작은순부터 큰것으로 순서를 각위치에서 rank식으로
+    
+    matrix()
 ***
