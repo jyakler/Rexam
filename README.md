@@ -14,5 +14,7 @@
     sort(함수):default 오름차순 /  default: decreasing=F
     order(): 작은순부터 큰것으로 순서를 각위치에서 rank식으로
     
-    matrix()
+    matrix():  nrow=행갯수 ncol=열갯수 byrow=T(행우선)
+    apply(2차원벡터, 1or 2, 함수): 1:row 2:col  - 매트릭스의 행,열기준으로 함수의 작업 수행
+    array(범위,dim=c(row,col,width)): 3차원벡터  
 ***
