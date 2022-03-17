@@ -22,5 +22,12 @@
     팩터(factor)
         가능한 범주값(level) 만으로 구성되는 벡터이다.
         팩터 생성 방법 : factor(벡터)/ factor(벡터[, levels=레벨벡터])/ factor(벡터[, levels=레벨벡터], ordered=TRUE)
-        팩터의 레벨 정보 추출 : levels(팩터변수
+        팩터의 레벨 정보 추출 : levels(팩터변수)
+        
+     dataframe   
+        데이터프레임의 구조 확인 :str(df), dim(df)
+        인덱싱 : [행의인덱싱, 열의인덱싱],[열의인덱싱], df$컬럼이름, [[열인덱싱]]
+
+        원하는 행과 열 추출 : subset(df, select=컬럼명들, subset=(조건))
+        
 ***
