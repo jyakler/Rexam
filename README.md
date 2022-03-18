@@ -30,4 +30,7 @@
 
         원하는 행과 열 추출 : subset(df, select=컬럼명들, subset=(조건))
         
+        
+      scan(): 파일 스캔  
+      read.table(): default: header=F (T하면 첫번째줄을 header로인식
 ***
