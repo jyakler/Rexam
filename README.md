@@ -34,3 +34,23 @@
       scan(): 파일 스캔  
       read.table(): default: header=F (T하면 첫번째줄을 header로인식
 ***
+
+    function
+        return()
+        invisible()  : 그냥 리턴하면 결과가 안나오지만 변수에 담아서 하면 나옴
+        Sys.sleep() : sleep
+        A << b : 전역대입연산
+        A <- b: 지역대입연산
+
+***
+__is.xxx 결과__
+
+- data.frame(): 데이터프레임 & 리스트 
+
+- LETTERS, 100,... :벡터
+
+- matrix(): 메트릭스 & 배열
+
+- list(): 리스트 & 벡터
+
+- array(): 배열
