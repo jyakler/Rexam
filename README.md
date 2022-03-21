@@ -41,6 +41,9 @@
         Sys.sleep() : sleep
         A << b : 전역대입연산
         A <- b: 지역대입연산
+        
+        stop() : 에러 만들고 멈추기
+        warning(): warning하기
 
 ***
 __is.xxx 결과__
