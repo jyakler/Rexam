@@ -60,5 +60,5 @@ __is.xxx 결과__
 
 ***
 
-    grep(뭐를,원본): default index리턴, value=TRUE -> 값 리턴
+    grep(뭐를,원본): default index리턴, value=TRUE -> 값 리턴 / #[^....]  -> 부정   ^xxx  -> 시작 / xxx$  -> 종료
     gsub(뭐를,뭘로,원본): replace함
