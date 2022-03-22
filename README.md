@@ -17,7 +17,7 @@
     matrix():  nrow=행갯수 ncol=열갯수 byrow=T(행우선)
     apply(2차원벡터, 1or 2, 함수): 1:row 2:col  - 매트릭스의 행,열기준으로 함수의 작업 수행
     array(범위,dim=c(row,col,width)): 3차원벡터  
-    
+    min,max() : 최소 쵀대값/ na.rm=TRUE,FALSE  -> NA값을 무시하거나 포함
     
     팩터(factor)
         가능한 범주값(level) 만으로 구성되는 벡터이다.
