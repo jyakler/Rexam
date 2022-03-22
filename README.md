@@ -72,3 +72,23 @@ __is.xxx 결과__
     grep(뭐를,원본): default index리턴, value=TRUE -> 값 리턴 / #[^....]  -> 부정   ^xxx  -> 시작 / xxx$  -> 종료
     gsub(뭐를,뭘로,원본): replace함
     strsplit(문장,split="") : text를 나눔 -> list로 반환
+
+### 날짜
+
+    Sys.Date()
+    Sys.time()
+    date()
+    
+- 년월일 시분초 타입의 문자열을 날짜 또는 시간으로 변경 : 
+ 
+   as.Date("년-월-일 시:분:초") 또는 as.Date("년/월/일 시:분:초")
+    
+   as.POSIXct("년-월-일 시:분:초") 또는 as.POSIXct("년/월/일 시:분:초")
+    
+   as.POSIXlt("년-월-일 시:분:초") 또는 as.POSIXlt("년/월/일 시:분:초")
+    
+- 특정 포맷을 이용한 날짜: as.Date("날짜 문자열", format="포맷")
+ 
+   as.POSIXct("날짜와 시간 문자열", format="포맷")
+     
+   as.POSIXlt("날짜와 시간 문자열", format="포맷")
