@@ -71,3 +71,4 @@ __is.xxx 결과__
 
     grep(뭐를,원본): default index리턴, value=TRUE -> 값 리턴 / #[^....]  -> 부정   ^xxx  -> 시작 / xxx$  -> 종료
     gsub(뭐를,뭘로,원본): replace함
+    strsplit(문장,split="") : text를 나눔 -> list로 반환
