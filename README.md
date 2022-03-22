@@ -92,3 +92,5 @@ __is.xxx 결과__
    as.POSIXct("날짜와 시간 문자열", format="포맷")
      
    as.POSIXlt("날짜와 시간 문자열", format="포맷")
+
+strptime(날짜,포맷)- 날짜를 posixlt로 변환 
