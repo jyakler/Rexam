@@ -57,3 +57,8 @@ __is.xxx 결과__
 - list(): 리스트 & 벡터
 
 - array(): 배열
+
+***
+
+    grep(뭐를,원본): default index리턴, value=TRUE -> 값 리턴
+    gsub(뭐를,뭘로,원본): replace함
