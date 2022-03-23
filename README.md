@@ -124,11 +124,10 @@ detach("package:패키지명")
 #### 활용
 
     library(rvest) 사용
-
     read_html(url)
 
-    html_nodes(url읽은 text, "속성"): 알맞는 노드를 리턴
+    html_nodes(x, css, xpath), html_node(x, css, xpath) : 원하는 노드(태그) 추출하기
+    html_text(x, trim=FALSE) : 노드에서 컨텐트 추출하기
+    html_attrs(x) : 노드에서 속성들 추출하기
+    html_attr(x, name, default = "") : 노드에서 주어진 명칭의 속성값 추출하기
 
-    html_text(노드) : 노드의 text부분 출력
-
-    html_attr(노드): 노드의 속성 출력
