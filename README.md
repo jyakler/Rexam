@@ -124,10 +124,28 @@ detach("package:패키지명")
 #### 활용
 
     library(rvest) 사용
+
+xml2
+    
     read_html(url)
+
+rvest
 
     html_nodes(x, css, xpath), html_node(x, css, xpath) : 원하는 노드(태그) 추출하기
     html_text(x, trim=FALSE) : 노드에서 컨텐트 추출하기
     html_attrs(x) : 노드에서 속성들 추출하기
     html_attr(x, name, default = "") : 노드에서 주어진 명칭의 속성값 추출하기
 
+XML
+    
+    htmlParse (file, encoding="…") : xpathSApply() 사용 가능한 객체로 변환
+    xpathSApply(doc, path, fun) : 원하는 노드(태그) 추출하고 전달된 함수 수행하기
+    # fun : xmlValue, xmlGetAttr, xmlAttrs
+
+httr
+
+    GET(url) : HTML 웹 페이지를 요청해서 받아오기
+    요청헤더에 계정 또는 패스워드 등의 정보 전달 가능
+    응답 내용이 바이너리인 경우에도 사용 가능
+    
+  
