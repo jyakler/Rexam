@@ -132,7 +132,7 @@ xml2
 rvest
 
     html_nodes(x, css, xpath), html_node(x, css, xpath) : 원하는 노드(태그) 추출하기
-    html_text(x, trim=FALSE) : 노드에서 컨텐트 추출하기
+    html_text(x, trim=FALSE) : 노드에서 컨텐트 추출하기, trim= 쓸모없는 공백제거
     html_attrs(x) : 노드에서 속성들 추출하기
     html_attr(x, name, default = "") : 노드에서 주어진 명칭의 속성값 추출하기
 
