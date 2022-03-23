@@ -97,12 +97,38 @@ strptime(날짜,포맷)- 날짜를 posixlt로 변환
 
 ## 정적 데이터 수집
 
-library(rvest) 사용
+새로운 R 패키지의 설치 :
+    install.packages("패키지명")
 
-read_html(url)
+- 이미 설치된 R 패키지 확인 :
+    installed.packages()
 
-html_nodes(url읽은 text, "속성"): 알맞는 노드를 리턴
+- 설치된 패키지 삭제 :
+remove.packages("패키지명")
 
-html_text(노드) : 노드의 text부분 출력
+- 설치된 패키지의 버전 확인 :
+packageVersion("패키지명")
 
-html_attr(노드): 노드의 속성 출력
+- 설치된 패키지 업데이트 :
+update.packages("패키지명")
+
+- 설치된 패키지 로드 :
+library(패키지명)
+require(패키지명)
+
+- 로드된 패키지 언로드(로드상태 해제)  :
+detach("package:패키지명")
+
+- 로드된 패키지 점검 :search()
+
+#### 활용
+
+    library(rvest) 사용
+
+    read_html(url)
+
+    html_nodes(url읽은 text, "속성"): 알맞는 노드를 리턴
+
+    html_text(노드) : 노드의 text부분 출력
+
+    html_attr(노드): 노드의 속성 출력
