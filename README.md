@@ -94,3 +94,15 @@ __is.xxx 결과__
    as.POSIXlt("날짜와 시간 문자열", format="포맷")
 
 strptime(날짜,포맷)- 날짜를 posixlt로 변환 
+
+## 정적 데이터 수집
+
+library(rvest) 사용
+
+read_html(url)
+
+html_nodes(url읽은 text, "속성"): 알맞는 노드를 리턴
+
+html_text(노드) : 노드의 text부분 출력
+
+html_attr(노드): 노드의 속성 출력
