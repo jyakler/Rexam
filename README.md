@@ -138,7 +138,7 @@ rvest
 
 XML
     
-    htmlParse (file, encoding="…") : xpathSApply() 사용 가능한 객체로 변환
+    htmlParse (file, encoding="…"), xmlParse(file, encoding="…") : xpathSApply() 사용 가능한 객체로 변환
     xpathSApply(doc, path, fun) : 원하는 노드(태그) 추출하고 전달된 함수 수행하기
     # fun : xmlValue, xmlGetAttr, xmlAttrs
 
