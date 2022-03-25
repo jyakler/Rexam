@@ -156,3 +156,8 @@ httr
  
     fromJSON(): xmlParse json버전
     
+
+## 동적 데이터 수집
+
+remDr <-remoteDriver(remoteServerAddr="", port=,browserName="") : R 코드로 Selenium 서버에 접속하고
+remoteDriver 객체 리턴
