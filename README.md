@@ -166,6 +166,8 @@ remDr$open() : 브라우저 오픈
 
 remDr$navigate(url): url로 이동
 
+remDr$sendKeysToElement(list("검색어",key="enter")) : 검색어 치고 엔터 누르기
+
 one<- remDr$findElement(using="css",무엇을): css무엇 태그 하나 찾기.
     여러개 찾을거면 fineElements 사용 - sapply(dom,function(x){x$getElementText()}) 이런식으로 사용
     
