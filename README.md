@@ -178,5 +178,5 @@ one<- remDr$findElement(using="css",무엇을): css무엇 태그 하나 찾기.
     
 one$clickElement(): 찾은 태그 클릭이벤트 발생
 
-remDr$executeScript("argument\[0\].click();",nextPageLink) - clickElement가 작동안할때 사용
+remDr$executeScript("argument\[0\].click();",list(a)) - clickElement가 작동안할때 사용
     - scrollTo(0,document.body.scrollHeight)" 로 페이지 스크롤 
