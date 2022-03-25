@@ -123,7 +123,7 @@ detach("package:패키지명")
 
 #### 활용
 
-    library(rvest) 사용
+    URLencode() : 주어진 문자열을 encoding규칙으로 변환
 
 xml2
     
@@ -141,11 +141,18 @@ XML
     htmlParse (file, encoding="…"), xmlParse(file, encoding="…") : xpathSApply() 사용 가능한 객체로 변환
     xpathSApply(doc, path, fun) : 원하는 노드(태그) 추출하고 전달된 함수 수행하기
     # fun : xmlValue, xmlGetAttr, xmlAttrs
+    xmlToDataFrame(): extract data from simple xml
+    getNodeSet(): get matching nodes
+
 
 httr
 
     GET(url) : HTML 웹 페이지를 요청해서 받아오기
     요청헤더에 계정 또는 패스워드 등의 정보 전달 가능
     응답 내용이 바이너리인 경우에도 사용 가능
-    
+    content(urlrepsonse, type="",encoding=""): extract content from request
   
+ jsonlite
+ 
+    fromJSON(): xmlParse json버전
+    
