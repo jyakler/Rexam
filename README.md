@@ -161,3 +161,20 @@ httr
 
 remDr <-remoteDriver(remoteServerAddr="", port=,browserName="") : R 코드로 Selenium 서버에 접속하고
 remoteDriver 객체 리턴
+
+remDr$open() : 브라우저 오픈
+
+remDr$navigate(url): url로 이동
+
+one<- remDr$findElement(using="css",무엇을): css무엇 태그 하나 찾기.
+    여러개 찾을거면 fineElements 사용 - sapply(dom,function(x){x$getElementText()}) 이런식으로 사용
+    
+    one$getElementTagName()
+    one$getElementText()
+    one$getElementAttribute("속성명")
+    
+    
+one$clickElement(): 찾은 태그 클릭이벤트 발생
+
+remDr$executeScript("argument\[0\].click();",nextPageLink) - clickElement가 작동안할때 사용
+    - scrollTo(0,document.body.scrollHeight)" 로 페이지 스크롤 
