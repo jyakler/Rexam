@@ -156,6 +156,13 @@ httr
  
     fromJSON(): xmlParse json버전
     
+## selenium 키는법
+
+selenium폴더에 들어가서
+    
+    java -Dwebdriver.chrome.driver="chromedriver.exe" -jar selenium-server-standalone-4.0.0-alpha-1.jar -port 4445
+    
+수행
 
 ## 동적 데이터 수집
 
