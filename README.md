@@ -199,3 +199,12 @@ library(KoNLP) -한나눔 형태소 분석기 - 생각보다 분석 오류들이
     extractNoun() : 명사 추출
     SimplePos09() : 9가지 품사로 형태소분석
     SimplePos22() : 22가지 품사로 형태소 분석
+
+
+### 텍스트 시각화 - 워드 클라우드
+
+    library("wordcloud")
+    library("wordcloud2")
+    wordcloud(단어모음$keyword, 단어모음$빈도,min.freq=최소빈도, random.order=F(큰값일수록 중앙), rot.per= 가로세로비율, scale=크기, colors= 색, family=폰트)<-plot에 보여짐
+    
+    wordcloud2(단어모음,rotateRatio=회전한단어비율, size=크기,col=색,backgroundColor=배경색,shape=모양, fontFamily=폰트) <-viewer에 의해 보여짐(html로 만들어져 마우스 오버일때 정보가 보임)
