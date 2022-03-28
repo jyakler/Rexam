@@ -195,6 +195,7 @@ remDr$executeScript("argument\[0\].click();",list(a)) - clickElement가 작동�
 
 #### 형태소 분석 패키지
 library(KoNLP) -한나눔 형태소 분석기 - 생각보다 분석 오류들이 있음
+useSejongDic()
 
     extractNoun() : 명사 추출
     SimplePos09() : 9가지 품사로 형태소분석
