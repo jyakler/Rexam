@@ -193,6 +193,9 @@ remDr$executeScript("argument\[0\].click();",list(a)) - clickElement가 작동�
 
 ## text 분석
 
+text전처리- gsub등해서 짜를거 짜르고
+extractNoun
+
 #### 형태소 분석 패키지
 library(KoNLP) -한나눔 형태소 분석기 - 생각보다 분석 오류들이 있음
 useSejongDic()
