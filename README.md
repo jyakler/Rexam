@@ -223,8 +223,29 @@ useSejongDic()
 - 저수준 함수(꾸밈) – title(), lines(), axis(), legend(), points(), text()
 - 칼라팔레트 함수(스타일) – rainbow(), cm.colors(), topo.colors(), terrian.colors(), heat.colors()
 
+***
+
+[ 그려지는 그래프를 파일에 저장하는 방법1 ]
+
+png("mytest.png", 500, 400)
+
+그래프를 그린다.
+
+dev.off()
+
+[ 그래프를 그린 후에 파일에도 저장하는 방법2 ]
+
+그래프를 그린다.
+
+dev.copy(png, “mytest.png”) 또는 dev.copy(pdf, “mytest.pdf”)
+
+dev.off()
+
+
 
 막대그래프 -barplot(테이블, main="제목",col=막대색,xlab=가로축이름, ylab=세로축이름,horiz= 옆으로 출력(TF), ...)
+
+히스토그램- 연속형 수치데이터- hist()
 
 par()
 ![img](https://user-images.githubusercontent.com/49812691/160518274-6902f23d-2ccd-4082-9bff-a3faad41fc4f.png)
