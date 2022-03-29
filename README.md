@@ -251,7 +251,7 @@ dev.off()
 
 파이그래프- pie()  -3시부터 반시계방향으로 처리
 
-상자그래프 - boxplot()
+상자그래프 - boxplot() - 함수내에서 family에서 폰트설정은 불가능. 외부적으로만 설정
 
 ![제목 없음](https://user-images.githubusercontent.com/49812691/160569359-4f51ff15-09a8-463a-bbf2-80573d6e9884.png)
 
