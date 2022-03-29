@@ -219,6 +219,11 @@ useSejongDic()
 
 ## 그래프
 
+- 고수준 함수 – plot(), boxplot(), hist(), pie(), barplot()
+- 저수준 함수(꾸밈) – title(), lines(), axis(), legend(), points(), text()
+- 칼라팔레트 함수(스타일) – rainbow(), cm.colors(), topo.colors(), terrian.colors(), heat.colors()
+
+
 막대그래프 -barplot(테이블, main="제목",col=막대색,xlab=가로축이름, ylab=세로축이름,horiz= 옆으로 출력(TF), ...)
 
 par()
