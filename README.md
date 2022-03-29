@@ -214,5 +214,12 @@ useSejongDic()
     wordcloud2(단어모음,rotateRatio=회전한단어비율, size=크기,col=색,backgroundColor=배경색,shape=모양, fontFamily=폰트) <-viewer에 의해 보여짐(html로 만들어져 마우스 오버일때 정보가 보임)
     
     library(htmlwidgets)
-    saveWidget(result, "htmlfile") : save widget to html file
+    saveWidget(result, "htmlfile") : save widget to html file<img width="644" alt="par_cheatsheet" 
     htmltools::save_html(result,"htmlfile")
+
+## 그래프
+
+막대그래프 -barplot(테이블, main="제목",col=막대색,xlab=가로축이름, ylab=세로축이름,horiz= 옆으로 출력(TF), ...)
+
+par()
+![img](https://user-images.githubusercontent.com/49812691/160518274-6902f23d-2ccd-4082-9bff-a3faad41fc4f.png)
