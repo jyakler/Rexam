@@ -247,5 +247,7 @@ dev.off()
 
 히스토그램- 연속형 수치데이터- hist()
 
+파이그래프- pie()  -3시부터 반시계방향으로 처리
+
 par()
 ![img](https://user-images.githubusercontent.com/49812691/160518274-6902f23d-2ccd-4082-9bff-a3faad41fc4f.png)
