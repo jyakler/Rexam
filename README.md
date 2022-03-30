@@ -241,7 +241,9 @@ dev.copy(png, “mytest.png”) 또는 dev.copy(pdf, “mytest.pdf”)
 
 dev.off()
 
+***
 
+(앞~뒤) - 뒤에있는애들로 그룹핑
 
 막대그래프 -barplot(테이블, main="제목",col=막대색,xlab=가로축이름, ylab=세로축이름,horiz= 옆으로 출력(TF), ...)
 
@@ -254,6 +256,8 @@ dev.off()
 상자그래프 - boxplot() - 함수내에서 family에서 폰트설정은 불가능. 외부적으로만 설정    
 
 산점도 - plot()
+
+
 
 ![제목 없음](https://user-images.githubusercontent.com/49812691/160569359-4f51ff15-09a8-463a-bbf2-80573d6e9884.png)
 
