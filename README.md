@@ -256,10 +256,11 @@ dev.off()
 ![제목 없음](https://user-images.githubusercontent.com/49812691/160569359-4f51ff15-09a8-463a-bbf2-80573d6e9884.png)
 
 ### 추후에 디테일 변경
+    
+    x축 추가 -axes(1, ..., family=폰트)
+    y축 추가 -axes(2, ...)
+    제목 추가 -title()
 
-
-
-
-par()
+par() -리턴값=바꾸기전 세팅값 (담아두고 나중에 돌아가려할때 쓸 수 있음)
 ![img](https://user-images.githubusercontent.com/49812691/160518274-6902f23d-2ccd-4082-9bff-a3faad41fc4f.png)
 
