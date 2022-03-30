@@ -274,6 +274,8 @@ par() -리턴값=바꾸기전 세팅값 (담아두고 나중에 돌아가려할�
 
 chain()함수 - %>% (단축키 shift + ctrl + M)
 
+group_by()- summarise할때 기준 설정가능  - count()==group_by() + tally()
+
     filter()
     slice() : position 지정(잘안씀)
     arrange() : sort기능
