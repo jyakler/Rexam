@@ -270,3 +270,4 @@ dev.off()
 par() -리턴값=바꾸기전 세팅값 (담아두고 나중에 돌아가려할때 쓸 수 있음)
 ![img](https://user-images.githubusercontent.com/49812691/160518274-6902f23d-2ccd-4082-9bff-a3faad41fc4f.png)
 
+### dplyr 패키지- 데이터 전처리
