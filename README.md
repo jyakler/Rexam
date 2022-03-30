@@ -272,8 +272,16 @@ par() -리턴값=바꾸기전 세팅값 (담아두고 나중에 돌아가려할�
 
 ### dplyr 패키지- 데이터 전처리
 
+chain()함수 - %>% (단축키 shift + ctrl + M)
+
     filter()
-    slice()
-    arrange()
+    slice() : position 지정(잘안씀)
+    arrange() : sort기능
     select()
-    rename()
+    rename() :col name 바꾸기 - reshape 패키치 추가로 설치해야함
+    distinct():
+    sample_n():
+    sample_frac():
+    mutate() : add new col
+    transmute(): add new col
+    summarise(): 값 요약
