@@ -294,7 +294,8 @@ group_by()- summarise할때 기준 설정가능  - count()==group_by() + tally()
 합치기
 
     merge
-    inner_join
-    left_join
-    right_join
-    full_join
+    inner_join: 두자료 공통만
+    (outer_join) -
+        left_join: 왼쪽 자료기준
+        right_join: 오른쪽 자료기준
+        full_join: 모든항목 결합
