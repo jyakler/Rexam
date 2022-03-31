@@ -284,6 +284,6 @@ group_by()- summarise할때 기준 설정가능  - count()==group_by() + tally()
     distinct():
     sample_n():
     sample_frac():
-    mutate() : add new col
+    mutate() : add new col, 파생변수 생성
     transmute(): add new col
     summarise(): 값 요약
