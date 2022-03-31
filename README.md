@@ -276,13 +276,13 @@ chain()함수 - %>% (단축키 shift + ctrl + M)
 
 group_by()- summarise할때 기준 설정가능  - count()==group_by() + tally()
 
-    filter()
+    filter(): 조건 맞는것 
     slice() : position 지정(잘안씀)
     arrange() : sort기능
-    select()
+    select(): 어떤 col선택?
     rename() :col name 바꾸기 - reshape 패키치 추가로 설치해야함
-    distinct():
-    sample_n():
+    distinct(): 중복제거
+    sample_n(): 랜덤선택
     sample_frac():
     mutate() : add new col, 파생변수 생성
     transmute(): add new col
