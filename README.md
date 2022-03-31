@@ -299,3 +299,7 @@ group_by()- summarise할때 기준 설정가능  - count()==group_by() + tally()
         left_join: 왼쪽 자료기준
         right_join: 오른쪽 자료기준
         full_join: 모든항목 결합
+
+### tidyr 패키지
+
+    fill() : 값이 없는것을 .direction="down/up/updown/downup" 방향의 것으로 가져와서 채움
