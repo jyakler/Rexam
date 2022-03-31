@@ -277,7 +277,7 @@ chain()함수 - %>% (단축키 shift + ctrl + M)
 group_by()- summarise할때 기준 설정가능  - count()==group_by() + tally()
 
     filter(): 조건 맞는것 
-    slice() : position 지정(잘안씀)
+    slice() : row를 포지션에 맞게(index)추출
     arrange() : sort기능
     select(): 어떤 col선택?
     rename() :col name 바꾸기 - reshape 패키치 추가로 설치해야함
@@ -287,3 +287,14 @@ group_by()- summarise할때 기준 설정가능  - count()==group_by() + tally()
     mutate() : add new col, 파생변수 생성
     transmute(): add new col
     summarise(): 값 요약
+
+    bind_rows():rbind보다 속도가 조금 빠름
+    bind_cols()
+
+합치기
+
+    merge
+    inner_join
+    left_join
+    right_join
+    full_join
