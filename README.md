@@ -323,7 +323,7 @@ ggplot(data, ...)
     coord_cartesian(xlim="",ylim="") :범위제한
     scale_colour_...() : 색범주 지정
     scale_fill_brewer(palette="") : 색팔레트 지정
-    labs(제목, 부제목, 축이름 등등)
+    labs(title="",subtitle="",x="",y="")
 ### xlsx 패키지
     read.xlsx(파일이름,시트번호,...) : 엑셀파일 읽기
 ### plotly 패키지
@@ -331,4 +331,4 @@ ggplot(data, ...)
 
 ### treemap 패키지
     
-    
+    treemap(vsize="크기기준",index="표현하고자 하는 계층",...) : 트리맵 그리기
