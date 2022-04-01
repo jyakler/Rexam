@@ -196,6 +196,9 @@ remDr$executeScript("argument\[0\].click();",list(a)) - clickElement가 작동�
 text전처리- gsub등해서 짜를거 짜르고
 extractNoun
 
+
+showtext라이브러리 - font_add()
+
 #### 형태소 분석 패키지
 library(KoNLP) -한나눔 형태소 분석기 - 생각보다 분석 오류들이 있음
 useSejongDic()
@@ -253,7 +256,7 @@ dev.off()
 
 파이그래프- pie()  -3시부터 반시계방향으로 처리
 
-상자그래프 - boxplot() - 함수내에서 family에서 폰트설정은 불가능. 외부적으로만 설정    
+상자그래프 - boxplot() - 함수내에서 family에서 폰트설정은 불가능. 외부적으로만 설정   /range=0하면 이상치 측정안함
 
 산점도 - plot()
 
@@ -303,3 +306,15 @@ group_by()- summarise할때 기준 설정가능  - count()==group_by() + tally()
 ### tidyr 패키지
 
     fill() : 값이 없는것을 .direction="down/up/updown/downup" 방향의 것으로 가져와서 채움
+
+### ggplot2 - 더 다양한 그래프
+
+ggplot(data, ...)
+
+    aes - set of layer - x,y축
+    geom_point() : 점으로 표현
+    geom_line() : 선그래프
+    geom_col() : 집계막대
+    geom_bar() : 빈도 막대
+    geom_box() : 상자 그래프
+    xlim,ylim :범위제한
