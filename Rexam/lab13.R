@@ -1,6 +1,6 @@
 #1
 library(KoNLP)
-useSejongDic()
+#useSejongDic()
 data<-read.csv("output/movie_reviews3.csv")
 word<-extractNoun(data$vreview)
 wname<-unlist(word)
