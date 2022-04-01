@@ -314,7 +314,7 @@ ggplot(data, ...)
     aes - set of layer - x,y축
     geom_point() : 점으로 표현
     geom_line() : 선그래프
-    geom_col() : 집계막대
+    geom_col() : 집계막대- 데이터를 미리 집계해서 넘겨줘야함
     geom_bar() : 빈도 막대
     geom_box() : 상자 그래프
     xlim,ylim :범위제한
