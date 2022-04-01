@@ -317,4 +317,12 @@ ggplot(data, ...)
     geom_col() : 집계막대- 데이터를 미리 집계해서 넘겨줘야함
     geom_bar() : 빈도 막대
     geom_box() : 상자 그래프
-    xlim,ylim :범위제한
+    geom_histogram(): 히스토그램
+    geom_label() : 레이블
+    
+    coord_cartesian(xlim="",ylim="") :범위제한
+    scale_colour_...() : 색범주 지정
+    scale_fill_brewer(palette="") : 색팔레트 지정
+    labs(제목, 부제목, 축이름 등등)
+### xlsx 패키지
+    read.xlsx(파일이름,시트번호,...) : 엑셀파일 읽기
