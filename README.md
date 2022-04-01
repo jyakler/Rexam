@@ -326,3 +326,9 @@ ggplot(data, ...)
     labs(제목, 부제목, 축이름 등등)
 ### xlsx 패키지
     read.xlsx(파일이름,시트번호,...) : 엑셀파일 읽기
+### plotly 패키지
+    ggplotly() : 그래프 마우스 호버해서 정보 볼 수 있음
+
+### treemap 패키지
+    
+    
