@@ -207,6 +207,12 @@ packages("qgraph") # 네트워크 그래프
 
 packages("SnowballC") # 어근 추출
 
+TF-IDF(Term Frequency-Inverse Document Frequency)는 단어의 빈도와 역 문서 빈도(문서의 빈도에 특정 식을 취함)를 사용하여 DTM 내의 각 단어들마다 중요
+한 정도를 가중치로 주는 방법. TF-IDF 는 단어가 해당 문서에서 얼마나 중요한 단어(유의미한, 주제어)인지를 측정할 때 사용한다
+
+TF-IDF 값이 낮으면 중요도가 낮은 것이며, TF-IDF 값이 크면 중요도가 큰 것
+
+
 #### 형태소 분석 패키지
 library(KoNLP) -한나눔 형태소 분석기 - 생각보다 분석 오류들이 있음
 useSejongDic()
