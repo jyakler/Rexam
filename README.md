@@ -199,6 +199,14 @@ extractNoun
 
 showtext라이브러리 - font_add()
 
+packages("proxy") # 유사도 분석 
+
+packages("tm") # 텍스트 마이닝 지원 패키지
+
+packages("qgraph") # 네트워크 그래프
+
+packages("SnowballC") # 어근 추출
+
 #### 형태소 분석 패키지
 library(KoNLP) -한나눔 형태소 분석기 - 생각보다 분석 오류들이 있음
 useSejongDic()
@@ -306,6 +314,11 @@ group_by()- summarise할때 기준 설정가능  - count()==group_by() + tally()
 ### tidyr 패키지
 
     fill() : 값이 없는것을 .direction="down/up/updown/downup" 방향의 것으로 가져와서 채움
+    gather() : long format데이터로 변환하기위한 함수
+    spread(): gather반대
+    separate() : 데이터를 sep=""기준으로 나눔
+    
+![캡처](https://user-images.githubusercontent.com/49812691/161458271-8d90b16b-e547-400d-83f2-a484e2a32259.PNG)
 
 ### ggplot2 - 더 다양한 그래프
 
@@ -332,3 +345,5 @@ ggplot(data, ...)
 ### treemap 패키지
     
     treemap(vsize="크기기준",index="표현하고자 하는 계층",...) : 트리맵 그리기
+
+
