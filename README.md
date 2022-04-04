@@ -352,4 +352,26 @@ ggplot(data, ...)
     
     treemap(vsize="크기기준",index="표현하고자 하는 계층",...) : 트리맵 그리기
 
+### tm 패키지 - 영어에 특화됨
 
+    VCorpus() : 말뭉치/ vcorpus구성때 필요한 것 : "DataframeSource" "DirSource"       "URISource"       "VectorSource"   "XMLSource"       "ZipSource" 
+    VectorSource() : 벡터소스화
+    TermDocumentMatrix,    DocumentTermMaxtrix : 여기 안에서 control=list()로 transformation정보 줄 수 있음. ex) removeNumbers=T, wordLengths=c(1,Inf), stopwords= ...
+    content_transformer : 함수만들기
+    tm_map : 텍스트에 대한 전처리 (corpora)
+          --getTransformations()--
+            removePunctuation
+            removeNumbers
+            removeWords
+            stripWhitespace
+            stemDocument : 어근만 남김
+#### stopwords 패키지
+    marimo 소스- 한국어 불용어 -stopwords("ko",source="marimo")
+
+### qgraph 패키지 - 텍스트 분석 시각화- 네트워크 그래프
+
+    qgraph()
+    
+### proxy 패키지
+    dist(,method="") : 유사도 거리  - 0일수록 유사성 높음
+    simil(): 유사성 - 1일수록 유사성 높음
