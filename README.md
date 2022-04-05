@@ -385,6 +385,13 @@ ggplot(data, ...)
     qmap() : get_googlemap+ggmap해놓은거랑 비슷함
 
 ### leaflet 패키지
+자바스크립트 방식이라 맵 확대, 축소, 클릭이 가능함
 
+    leaflet():리플렛 사용
+    addTiles(): 맵그리기
+    addCircles(lan=,lat=,popup=,color=,...): 원그리기
+    setView(lan=,lat=,zoom=): 뷰
+    addPopups(): 팝업 나오게
+    
 ### ggiraphExtra 패키지
 
