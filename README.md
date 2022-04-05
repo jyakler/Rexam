@@ -387,7 +387,7 @@ ggplot(data, ...)
 
 ### leaflet 패키지
 자바스크립트 방식이라 맵 확대, 축소, 클릭이 가능함
-save_html로 html방식으로 저장하여야함
+
 
     leaflet():리플렛 사용
     addTiles(): 맵그리기
