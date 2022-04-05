@@ -375,3 +375,14 @@ ggplot(data, ...)
 ### proxy 패키지
     dist(,method="") : 유사도 거리  - 0일수록 유사성 높음
     simil(): 유사성 - 1일수록 유사성 높음
+
+## 지도 시각화
+
+### ggmap 패키지
+    get_googlemap(center=중앙위치, maptype="",zoom=,marker=데이터프레임)
+    ggmap(): 
+
+### leaflet 패키지
+
+### ggiraphExtra 패키지
+
