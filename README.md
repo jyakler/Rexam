@@ -389,9 +389,13 @@ ggplot(data, ...)
 
     leaflet():리플렛 사용
     addTiles(): 맵그리기
+    addProviderTiles(): 기본 외에 다른 타일 그리고 싶을때 사용
     addCircles(lan=,lat=,popup=,color=,...): 원그리기
     setView(lan=,lat=,zoom=): 뷰
     addPopups(): 팝업 나오게
     
 ### ggiraphExtra 패키지
-
+    ggChoropleth(data = ,         # 지도에 표현할 데이터
+             aes(fill = ,    # 색깔로 표현할 변수
+                 map_id =),  # 지역 기준 변수
+             map = )     # 지도 데이터
