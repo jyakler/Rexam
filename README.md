@@ -379,8 +379,9 @@ ggplot(data, ...)
 ## 지도 시각화
 
 ### ggmap 패키지
-    get_googlemap(center=중앙위치, maptype="",zoom=,marker=데이터프레임)
-    ggmap(): 
+    get_googlemap(center=중앙위치(벡터), maptype="",zoom=,marker=데이터프레임)
+    ggmap(): 맵그리기 
+    geocode(위치,source="google") : 구글에서 위치의 위도경도를 df로 반환해줌
 
 ### leaflet 패키지
 
