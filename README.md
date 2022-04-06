@@ -404,6 +404,10 @@ ggplot(data, ...)
 
 
 ## 상관관계
+    cor(): 상관계수 출력
+    
+산점도 작성->
+
 ![캡처](https://user-images.githubusercontent.com/49812691/161882513-5867bf13-4571-489c-a7e3-5ab643390644.PNG)
 
 -1에 가까울 수록 반비례
