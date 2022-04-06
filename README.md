@@ -401,3 +401,11 @@ ggplot(data, ...)
              aes(fill = ,    # 색깔로 표현할 변수
                  map_id =),  # 지역 기준 변수
              map = )     # 지도 데이터
+
+
+## 상관관계
+![캡처](https://user-images.githubusercontent.com/49812691/161882513-5867bf13-4571-489c-a7e3-5ab643390644.PNG)
+
+-1에 가까울 수록 반비례
+
+1에 가까울 수록 정비례
