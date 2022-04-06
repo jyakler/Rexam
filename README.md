@@ -143,7 +143,7 @@ XML
     # fun : xmlValue, xmlGetAttr, xmlAttrs
     xmlToDataFrame(): extract data from simple xml
     getNodeSet(): get matching nodes
-
+    readHTMLTable(): 테이블 
 
 httr
 
