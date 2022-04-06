@@ -351,8 +351,10 @@ ggplot(data, ...)
     ggplotly() : 그래프 마우스 호버해서 정보 볼 수 있음
 
 ### treemap 패키지
-    
     treemap(vsize="크기기준",index="표현하고자 하는 계층",...) : 트리맵 그리기
+
+### fmsb 패키지
+    radarchart(): 방사형 차트 
 
 ### tm 패키지 - 영어에 특화됨
 
