@@ -435,3 +435,11 @@ ggplot(data, ...)
     summary() 회귀모델 요약
     coef() 함수를 이용하여 회귀계수만 출력하여 볼 수 있다. 
     
+### 다중회귀 분석 (multiple linear regression)
+
+AIC - 적을수록 좋음
+### MASS 
+    step() - 다중독립변수중 하나씩 빼가며 비교(AIC값 낮게 되게 함)
+### leap
+    regsubsets() : 어떤 변수들을 포함해야 결정력이 높은지 표시할 수 있게함
+        -> plot(regsubsets,scale="adjr2") 해서 결정력이 어떨때 높은지 알 
