@@ -443,3 +443,12 @@ AIC - 적을수록 좋음
 ### leap
     regsubsets() : 어떤 변수들을 포함해야 결정력이 높은지 표시할 수 있게함
         -> plot(regsubsets,scale="adjr2") 해서 결정력이 어떨때 높은지 알 
+
+
+#### 통계
+
+shapiro.test에서 p-value가 0.05보다 크면 정규성을 가짐
+
+cor상관분석값이 1,-1에 가까우면 두 변수간의 관계가 있다는뜻 - cor.test의 p값이 0.05아래면 통계적으로 유의미
+
+lm 회귀분석 
