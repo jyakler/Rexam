@@ -350,6 +350,9 @@ ggplot(data, ...)
 ### plotly 패키지
     ggplotly() : 그래프 마우스 호버해서 정보 볼 수 있음
 
+### gridExtra 패키지
+    grid.arrange(a,b,ncol=x) : x의 열 갯수로 a,b그래프 화면분할하여  
+
 ### treemap 패키지
     treemap(vsize="크기기준",index="표현하고자 하는 계층",...) : 트리맵 그리기
 
