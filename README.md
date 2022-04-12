@@ -345,6 +345,8 @@ ggplot(data, ...)
     scale_colour_...() : 색범주 지정
     scale_fill_brewer(palette="") : 색팔레트 지정
     labs(title="",subtitle="",x="",y="")
+    
+    theme(plot.title=element_text(size=?) : 제목 사이즈 바꾸기
 ### xlsx 패키지
     read.xlsx(파일이름,시트번호,...) : 엑셀파일 읽기
 ### plotly 패키지
